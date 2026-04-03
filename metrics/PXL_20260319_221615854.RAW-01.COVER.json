@@ -1,0 +1,185 @@
+{
+  "file_name": "PXL_20260319_221615854.RAW-01.COVER.jpg",
+  "image_path": "data/input/PXL_20260319_221615854.RAW-01.COVER.jpg",
+  "family": "midtone-balanced-structured-object-text",
+  "metrics": {
+    "width_px": 6144,
+    "height_px": 8160,
+    "study_width_px": 1205,
+    "study_height_px": 1600,
+    "aspect_ratio": 0.7529,
+    "orientation": "portrait",
+    "luminance_mean": 130.3564,
+    "luminance_std": 70.1908,
+    "dynamic_range": 209.9066,
+    "saturation_mean": 0.2389,
+    "saturation_std": 0.1208,
+    "warm_balance": 0.0987,
+    "colorfulness": 21.3959,
+    "shadow_clip_ratio": 0.004997,
+    "highlight_clip_ratio": 5e-05,
+    "entropy": 7.8536,
+    "edge_density": 0.15,
+    "sharpness": 182.0965,
+    "visual_center_x": 0.5066,
+    "visual_center_y": 0.4279,
+    "thirds_distance": 0.1859,
+    "line_balance": 0.0124,
+    "diagonal_energy": 10.14,
+    "symmetry_score": 0.7951,
+    "vignette_score": -0.0879,
+    "negative_space_ratio": 0.3,
+    "dominant_colors": [
+      "#e8d9c8",
+      "#2b2422",
+      "#b1a08c",
+      "#867462",
+      "#5b5352"
+    ],
+    "brightness_family": "midtone",
+    "saturation_family": "balanced",
+    "texture_family": "structured",
+    "chroma_family": "warm"
+  },
+  "semantic": {
+    "analysis_status": "ok",
+    "subject_count": 0,
+    "object_count": 0,
+    "text_present": true,
+    "keywords": [
+      "Il s’agit d’une photographie encadrée.",
+      "cadre non déterminé avec précision",
+      "latin"
+    ],
+    "support_kind": "Il s’agit d’une photographie encadrée.",
+    "salient_objects": [],
+    "subject_roles": [],
+    "dominant_axes": [],
+    "scene_summary": "La photographie est encadrée dans un cadre blanc. L’image représente un homme assis sur une surface. Il porte un chemisier à carreaux et un jean bleu foncé. Sa tête est penchée vers la droite. Une main est levée, les doigts ouverts, en dire",
+    "core_reading": "La photographie est encadrée dans un cadre blanc. L’image représente un homme assis sur une surface. Il porte un chemisier à carreaux et un jean bleu foncé. Sa tête est penchée vers la droite. Une main est levée, les doigts ouverts, en dire",
+    "short_title": "Il s’agit d’une photographie encadrée. : PXL_20260319_221615854.RAW-01.COVER",
+    "faithfulness_score": 72,
+    "overreach_risk_score": 38
+  },
+  "run_metadata": {
+    "backend": "ollama",
+    "api_host": "http://127.0.0.1:11434",
+    "api_token_configured": false,
+    "model": "gemma3:latest",
+    "vision_model": "gemma3:latest",
+    "reasoning_model": "qwen3.5:397b-cloud",
+    "requested_model": "qwen3-vl:235b-cloud",
+    "requested_vision_model": "qwen3-vl:235b-cloud",
+    "requested_reasoning_model": "qwen3.5:397b-cloud",
+    "available_models": [
+      "gemma3:12b-cloud",
+      "qwen2.5:0.5b",
+      "qwen2.5:3b",
+      "qwen3-coder-next:latest",
+      "qwen3-coder-next:cloud",
+      "qwen3-coder:480b-cloud",
+      "qwen3.5:397b-cloud",
+      "qwen3-next:80b-cloud",
+      "gpt-oss:120b-cloud",
+      "gemma3:latest",
+      "qwen3:8b",
+      "glm-4.7-flash:latest",
+      "qwen3-coder:latest",
+      "deepseek-ocr:latest",
+      "deepseek-r1:70b",
+      "qwen3:32b",
+      "file-analyst:latest",
+      "geo-mini:latest",
+      "llama3.2:1b"
+    ],
+    "model_resolution_notes": [
+      "Modèle vision indisponible 'qwen3-vl:235b-cloud', remplacement automatique par 'gemma3:latest'.",
+      "Alias MODEL réécrit de 'qwen3-vl:235b-cloud' vers 'gemma3:latest' pour rester cohérent avec le modèle vision effectif."
+    ],
+    "llm_postprocess": true,
+    "reliable_mode": true,
+    "temporary_context": null,
+    "style_register": "documentaire habité",
+    "sync_timeout": 300,
+    "workers": 1,
+    "image_max_dimension": 1600,
+    "image_jpeg_quality": 88,
+    "pass_configs": {
+      "support": {
+        "temperature": 0.1,
+        "maxTokens": 520,
+        "topPSampling": 0.9,
+        "repeatPenalty": 1.05
+      },
+      "observe": {
+        "temperature": 0.12,
+        "maxTokens": 820,
+        "topPSampling": 0.9,
+        "repeatPenalty": 1.05
+      },
+      "read": {
+        "temperature": 0.08,
+        "maxTokens": 900,
+        "topPSampling": 0.9,
+        "repeatPenalty": 1.03
+      },
+      "anchor": {
+        "temperature": 0.16,
+        "maxTokens": 980,
+        "topPSampling": 0.9,
+        "repeatPenalty": 1.05
+      },
+      "interpret": {
+        "temperature": 0.22,
+        "maxTokens": 960,
+        "topPSampling": 0.9,
+        "repeatPenalty": 1.05
+      },
+      "critique": {
+        "temperature": 0.08,
+        "maxTokens": 720,
+        "topPSampling": 0.8,
+        "repeatPenalty": 1.08
+      },
+      "subjective_interpret": {
+        "temperature": 0.42,
+        "maxTokens": 880,
+        "topPSampling": 0.92,
+        "repeatPenalty": 1.04
+      },
+      "subjective_critique": {
+        "temperature": 0.1,
+        "maxTokens": 760,
+        "topPSampling": 0.82,
+        "repeatPenalty": 1.08
+      },
+      "write": {
+        "temperature": 0.38,
+        "maxTokens": 980,
+        "topPSampling": 0.9,
+        "repeatPenalty": 1.05
+      }
+    },
+    "prompt_overrides": null,
+    "prompt_fingerprints": {
+      "SUPPORT_SYSTEM": "2f1a5668b8773472b54086c913282321580cab2777843be318764b4fcfb08350",
+      "OBSERVE_SYSTEM": "abe18b93dd54804f4aa41228f9b0fcae1a8a7af8152b0e28f02d2b07057987db",
+      "READ_SYSTEM": "7981389dc18030cafc7a489e170a09dc3c4de8a04d79cc3bc7d3a1fd0047cb7b",
+      "ANCHOR_SYSTEM": "49fde53a5decbe5bfebd4086fc2f9ba5203b62275a12a87fa3dfdc53700f78ef",
+      "INTERPRET_SYSTEM": "c410109dcd47fab720f7a1bc4658f0c539984289b61fd75378c11d7d03c57341",
+      "CRITIQUE_SYSTEM": "24f909fe15ba716128439bcfd334fb6df5d0a40ac8da305f01733abf9bab34e3",
+      "SUBJECTIVE_INTERPRET_SYSTEM": "5e32558d942b6bba74ccebb5d3c5678c0317a9730e0c78ccfdf3290aabb9261d",
+      "SUBJECTIVE_CRITIQUE_SYSTEM": "b551c5f7db8f2f055348ed2c5d5e38158539961390315b14a5cd93c19ed83aeb",
+      "WRITE_SYSTEM": "a89fbb65f74bdda1ac354fc0ab4a820b9c652f98b45ef576f574e97452c7534e",
+      "SUPPORT_USER": "4acab8b340379ee0329843c31cc92ad7cb090629c67942beb99710c2682f579b",
+      "OBSERVE_USER": "92f11baffa11cc703cdd733dc935cf08e96a8b3bf48b730b359843c07cb0b269",
+      "READ_USER": "8fd52285195e19e356d47291496fe722c8b242a7e808e6cba9af9d6f27e628f7",
+      "ANCHOR_USER": "b6da54a6952d39fecc6613b5ad76824998c6472ac12a7d5df7716f03b23b8886",
+      "INTERPRET_USER": "4cbd4cfbba4d97d818e576dd9a2e88f6fab3accfda04362d4ca68ae1bb649458",
+      "CRITIQUE_USER": "ccd0b038f07a767bd1d04accf675e5ca81b72e218e199899559ffae43e2a27ce",
+      "SUBJECTIVE_INTERPRET_USER": "e9e1335db0c74c193d4facc1d4eabc33e766e83d17520fe48af95e216d313332",
+      "SUBJECTIVE_CRITIQUE_USER": "175bfc527d6ada3923a070942607d594286ef17ffa25b3c75d60d3539d1ca691",
+      "WRITE_USER": "3b4ff088e9f37213f147c318a5cd3b561432134439318e104c02ef18021b104f"
+    }
+  }
+}

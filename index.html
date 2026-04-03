@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Corpus Study</title>
+  <meta name="description" content="Exploration complète d'un corpus photographique avec rendu statique publiable sur GitHub Pages.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Corpus photographique</p>
+        <h1>Reports complets, métriques visibles, publication directe.</h1>
+        <p class="hero-text">
+          Cette version recentre le site sur les données brutes des reports. Chaque image expose ses métriques optiques,
+          ses signaux sémantiques, sa palette, ses métadonnées de run et le markdown source, dans une structure statique
+          compatible avec un déploiement GitHub Pages depuis la racine du dépôt.
+        </p>
+        <nav class="hero-nav">
+          <a href="#overview">Vue d'ensemble</a>
+          <a href="#figures">Figures</a>
+          <a href="#matrix">Matrice</a>
+          <a href="#reports">Reports</a>
+        </nav>
+      </div>
+      <div class="hero-side">
+        <section class="panel">
+          <p class="eyebrow">Statistiques globales</p>
+          <div class="stats-grid" id="hero-stats"></div>
+        </section>
+        <section class="panel">
+          <p class="eyebrow">Publication</p>
+          <p class="note">
+            Le site est servi depuis <code>/index.html</code>. Après push, GitHub Pages peut être configuré sur la branche et le dossier racine,
+            sans build ni pipeline supplémentaire.
+          </p>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="overview">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Synthèse</p>
+            <h2>Vue d'ensemble du corpus</h2>
+          </div>
+          <p class="section-intro">Lecture transversale des familles, supports, modèles et extrêmes métriques calculés à partir des reports.</p>
+        </div>
+        <div class="overview-grid">
+          <section class="panel" id="summary-panel"></section>
+          <section class="panel" id="family-panel"></section>
+          <section class="panel" id="support-panel"></section>
+          <section class="panel" id="extremes-panel"></section>
+        </div>
+      </section>
+
+      <section class="section" id="figures">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Diagnostics</p>
+            <h2>Figures exportées</h2>
+          </div>
+          <p class="section-intro">Les figures générées sont conservées telles quelles et intégrées dans le parcours principal.</p>
+        </div>
+        <div class="figure-grid" id="figure-grid"></div>
+      </section>
+
+      <section class="section" id="trends">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Sémantique</p>
+            <h2>Tendances et récurrences</h2>
+          </div>
+          <p class="section-intro">Lecture des mots-clés, supports et objets saillants récurrents remontés par les analyses.</p>
+        </div>
+        <div class="overview-grid">
+          <section class="panel" id="keyword-panel"></section>
+          <section class="panel" id="object-panel"></section>
+          <section class="panel span-2" id="model-panel"></section>
+        </div>
+      </section>
+
+      <section class="section" id="matrix">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Comparaison</p>
+            <h2>Matrice corpus</h2>
+          </div>
+          <p class="section-intro">Tableau dense pour comparer rapidement toutes les images sur les champs les plus utiles du pipeline.</p>
+        </div>
+        <section class="panel table-panel">
+          <div class="table-wrap">
+            <table id="matrix-table"></table>
+          </div>
+        </section>
+      </section>
+
+      <section class="section" id="reports">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Détail par image</p>
+            <h2>Reports complets</h2>
+          </div>
+          <p class="section-intro">Recherche, filtres et affichage exhaustif des métriques, sorties sémantiques et métadonnées de run.</p>
+        </div>
+        <section class="panel controls-panel">
+          <label class="control">
+            <span>Recherche</span>
+            <input id="search-input" type="search" placeholder="Nom de fichier, keyword, support, famille">
+          </label>
+          <label class="control">
+            <span>Famille</span>
+            <select id="family-filter">
+              <option value="all">Toutes</option>
+            </select>
+          </label>
+          <label class="control">
+            <span>Texte détecté</span>
+            <select id="text-filter">
+              <option value="all">Tous</option>
+              <option value="true">Avec texte</option>
+              <option value="false">Sans texte</option>
+            </select>
+          </label>
+        </section>
+        <div class="report-list" id="report-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <template id="stat-card-template">
+    <article class="stat-card">
+      <span class="stat-label"></span>
+      <strong class="stat-value"></strong>
+    </article>
+  </template>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

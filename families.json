@@ -1,0 +1,167 @@
+{
+  "summary": {
+    "image_count": 12,
+    "families": {
+      "midtone-balanced-structured-object-text": 2,
+      "midtone-muted-structured-object-text": 9,
+      "midtone-balanced-structured-object-no-text": 1
+    },
+    "brightness_mean": 139.9204,
+    "saturation_mean": 0.177,
+    "sharpness_mean": 286.2867,
+    "mean_colorfulness": 12.434,
+    "human_image_count": 0,
+    "text_image_count": 11,
+    "top_objects": [],
+    "top_keywords": [
+      [
+        "cadre non déterminé avec précision",
+        12
+      ],
+      [
+        "latin",
+        11
+      ],
+      [
+        "Photo encadrée.",
+        1
+      ],
+      [
+        "Il s’agit d’une photographie encadrée.",
+        1
+      ],
+      [
+        "Boîte en bois avec encadrement de sept photographies.",
+        1
+      ],
+      [
+        "Il s'agit d'une photographie imprimée, encadrée.",
+        1
+      ],
+      [
+        "Le support est une image encadrée, fixée sur un tableau blanc. L'encadrement est lui-même un support visuel.",
+        1
+      ],
+      [
+        "Ensemble de feuilles blanches, apparentées par leur fixation à un mur gris. Il s'agit d'un dispositif d'exposition.",
+        1
+      ],
+      [
+        "Photographie imprimée sur un support (probablement une couverture).",
+        1
+      ],
+      [
+        "Photographie encadrée.",
+        1
+      ],
+      [
+        "Tableau de couleur beige.",
+        1
+      ],
+      [
+        "Tableau de mur en briques blanches.",
+        1
+      ]
+    ],
+    "support_kinds": [
+      [
+        "Photo encadrée.",
+        1
+      ],
+      [
+        "Il s’agit d’une photographie encadrée.",
+        1
+      ],
+      [
+        "Boîte en bois avec encadrement de sept photographies.",
+        1
+      ],
+      [
+        "Il s'agit d'une photographie imprimée, encadrée.",
+        1
+      ],
+      [
+        "Le support est une image encadrée, fixée sur un tableau blanc. L'encadrement est lui-même un support visuel.",
+        1
+      ],
+      [
+        "Ensemble de feuilles blanches, apparentées par leur fixation à un mur gris. Il s'agit d'un dispositif d'exposition.",
+        1
+      ],
+      [
+        "Photographie imprimée sur un support (probablement une couverture).",
+        1
+      ],
+      [
+        "Photographie encadrée.",
+        1
+      ],
+      [
+        "Tableau de couleur beige.",
+        1
+      ],
+      [
+        "Tableau de mur en briques blanches.",
+        1
+      ],
+      [
+        "Le support est une image imprimée, fixée sur un mur, recouverte de ruban adhésif jaune.",
+        1
+      ],
+      [
+        "Image encadrée, le cadre étant lui-même un élément visible.",
+        1
+      ]
+    ]
+  },
+  "records": [
+    {
+      "file_name": "PXL_20260319_221606770.RAW-01.COVER.jpg",
+      "family": "midtone-balanced-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221615854.RAW-01.COVER.jpg",
+      "family": "midtone-balanced-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221626535.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221643500.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221656925.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221728309.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221746325.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221801472.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_221820951.RAW-01.COVER.jpg",
+      "family": "midtone-balanced-structured-object-no-text"
+    },
+    {
+      "file_name": "PXL_20260319_221928460.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_222150706.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    },
+    {
+      "file_name": "PXL_20260319_222209556.RAW-01.COVER.jpg",
+      "family": "midtone-muted-structured-object-text"
+    }
+  ]
+}
